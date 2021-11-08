@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb"
+    tools:context=".ChooserActivity">
+
+
+
+
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Take a run"
+        android:id="@+id/TakeARunButton"
+        android:onClick="TakeARunOnClick"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        ></Button>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="View your scheduale"
+        android:id="@+id/SchedualeButton"
+        android:onClick="viewYourSchedualeOnClick"
+        android:layout_below="@+id/TakeARunButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+
+
+        ></Button>
+
+
+    <!--    <Button-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:text="View Personal info"-->
+    <!--        android:id="@+id/PersonalInfoButton"-->
+    <!--        android:layout_below="@+id/SchedualeButton"-->
+    <!--        android:onClick="viewwPersonalInfoOnClick"-->
+
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        ></Button>-->
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/backButtonINChooser"
+        android:layout_below="@+id/SchedualeButton"
+        android:onClick="backOnClick"
+        android:layout_marginTop="20dp"
+        android:text="Back"
+        ></Button>
+
+
+
+</RelativeLayout>
